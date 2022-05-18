@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CommonLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CommonLib.'
+  s.summary          = 'This library handle for common or extension to help us handle viewcontroller , ect'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This library handle for common or extension to help us handle viewcontroller , ect. just import and turn on the accessory'
                        DESC
 
   s.homepage         = 'https://github.com/edooktarifa99@gmail.com/CommonLib'
@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CommonLib/Classes/**/*'
-  
+  s.source_files = 'Classes/**/*.swift'
+  s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'CommonLib' => ['CommonLib/Assets/*.png']
   # }
