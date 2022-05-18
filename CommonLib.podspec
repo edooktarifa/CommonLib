@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CommonLibs'
+  s.name             = 'CommonLib'
   s.version          = '1.0.0'
   s.summary          = 'This library handle for common or extension to help us handle viewcontroller , ect'
 
