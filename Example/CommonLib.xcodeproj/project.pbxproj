@@ -39,14 +39,14 @@
 		607FACE51AFB9204008FA782 /* CommonLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64DAB378E1BE342F9627D2A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		64DAB378E1BE342F9627D2A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		659D3649B3DFFCAC7B321E48 /* Pods_CommonLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7543AAF5134F7D388A1947EA /* Pods_CommonLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A33BEA5D0746E1D1BCBF434A /* CommonLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CommonLib.podspec; path = ../CommonLib.podspec; sourceTree = "<group>"; };
+		A33BEA5D0746E1D1BCBF434A /* CommonLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CommonLib.podspec; path = ../CommonLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2BCF19D8017AFA8C294EF21 /* Pods-CommonLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CommonLib_Tests/Pods-CommonLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDA1220F4210A458A1497245 /* Pods-CommonLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-CommonLib_Tests/Pods-CommonLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EDDC50E00BCDF9F83BCC4C2B /* Pods-CommonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonLib_Example.release.xcconfig"; path = "Target Support Files/Pods-CommonLib_Example/Pods-CommonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F0127C767AA60B49AB595670 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0127C767AA60B49AB595670 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				B2BCF19D8017AFA8C294EF21 /* Pods-CommonLib_Tests.debug.xcconfig */,
 				CDA1220F4210A458A1497245 /* Pods-CommonLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -313,11 +313,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CommonLib_Example/Pods-CommonLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CommonLib/CommonLib.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

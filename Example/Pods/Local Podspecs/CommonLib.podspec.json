@@ -1,0 +1,22 @@
+{
+  "name": "CommonLib",
+  "version": "0.1.0",
+  "summary": "A short description of CommonLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/edooktarifa99@gmail.com/CommonLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "edooktarifa99@gmail.com": "edooktarifa99@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/edooktarifa99@gmail.com/CommonLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CommonLib/Classes/**/*"
+}
