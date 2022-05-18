@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CommonLib'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'This library handle for common or extension to help us handle viewcontroller , ect'
 
 # This description is used to generate tags and improve search results.

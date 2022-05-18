@@ -1,28 +1,16 @@
 PODS:
   - CommonLib (0.1.0)
-  - RxCocoa (4.5.0):
-    - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSwift (4.5.0)
 
 DEPENDENCIES:
   - CommonLib (from `../`)
-  - RxCocoa (~> 4.0)
-  - RxSwift (~> 4.0)
-
-SPEC REPOS:
-  trunk:
-    - RxCocoa
-    - RxSwift
 
 EXTERNAL SOURCES:
   CommonLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CommonLib: f98f97798b439c3cb360edce7b7a03540c0ded85
-  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  CommonLib: 03ce77a531d77f9dc2bf1576f5425b3c31eb2cdc
 
-PODFILE CHECKSUM: 0094b2a6c2b620c9133419de95f14cd91b06059a
+PODFILE CHECKSUM: 8da9ddd55eb2cb949127eabd1f57ee2865a7cea0
 
 COCOAPODS: 1.11.2
