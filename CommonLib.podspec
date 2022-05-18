@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'This library handle for common or extension to help us handle viewcontroller , ect. just import and turn on the accessory'
                        DESC
 
-  s.homepage         = 'https://github.com/edooktarifa99@gmail.com/CommonLib'
+  s.homepage         = 'https://github.com/edooktarifa/CommonLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'edooktarifa99@gmail.com' => 'edooktarifa99@gmail.com' }
