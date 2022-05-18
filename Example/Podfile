@@ -1,11 +1,11 @@
-use_frameworks!
 
 platform :ios, '9.0'
 
 target 'CommonLib_Example' do
+  
+  use_frameworks!
+  
   pod 'CommonLib', :path => '../'
-  pod 'RxSwift', '~> 4.0'
-  pod 'RxCocoa', '~> 4.0'
 
   target 'CommonLib_Tests' do
     inherit! :search_paths
